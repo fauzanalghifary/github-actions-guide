@@ -7,7 +7,11 @@ jobs:
       - name: Get code
         uses: actions/checkout@v3
       - name: Move folder
+        run: ls
+      - name: Move folder
         run: cd "Section 03 Github Action Basic"
+      - name: Move folder
+        run: ls
       - name: Install nodeJS
         uses: actions/setup-node@v3
         with:
