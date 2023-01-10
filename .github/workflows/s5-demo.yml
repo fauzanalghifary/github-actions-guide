@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+defaults:
+  run:
+    working-directory: ./Section 05 Artifacs and Outputs
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -26,7 +29,7 @@ jobs:
       - name: Build website
         run: npm run build
       - name: Upload artifacs
-        run: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: dist-files
           path: |
