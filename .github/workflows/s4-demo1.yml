@@ -1,5 +1,9 @@
 name: S4 - Events Demo 1
-on: ...
+on:
+  pull_request:
+    types:
+      - opened
+  Workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
