@@ -5,7 +5,7 @@ on:
       - main
 defaults:
   run:
-    working-directory: Section 05 Job Artifacs and Outputs
+    working-directory: Section 05 Job Artifacts and Outputs
 jobs:
   test:
     runs-on: ubuntu-latest
