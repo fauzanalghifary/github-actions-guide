@@ -1,4 +1,4 @@
-name: Handle issues
+name: s3b - Handle issues
 on: issues
 job:
   output-info:
