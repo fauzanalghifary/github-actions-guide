@@ -4,12 +4,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Move folder
-        run: ls
       - name: Get code
         uses: actions/checkout@v3
       - name: Move folder
-        run: ls
+        run: cd "Section 03 Github Action Basic"
       - name: Install nodeJS
         uses: actions/setup-node@v3
         with:
