@@ -1,4 +1,4 @@
-name: Deployment Exercise 1
+name: s3b - Deployment Exercise 2
 on: workflow_dispatch
 jobs:
   lint:

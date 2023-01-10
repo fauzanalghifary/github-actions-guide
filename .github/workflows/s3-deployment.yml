@@ -1,4 +1,4 @@
-name: Test Project
+name: s3 - Test Project
 on: workflow_dispatch
 jobs:
   test:

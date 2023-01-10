@@ -1,6 +1,6 @@
-name: First Workflow
+name: s3 - First Workflow
 on: workflow_dispatch
-jobs: 
+jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:

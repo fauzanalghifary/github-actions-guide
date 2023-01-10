@@ -1,4 +1,4 @@
-name: Output Information
+name: s3 - Output Information
 on: workflow_dispatch
 jobs:
   info:
