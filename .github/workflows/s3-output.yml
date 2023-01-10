@@ -3,9 +3,6 @@ on: workflow_dispatch
 jobs:
   info:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./Section 03 Github Action Basic
     steps:
       - name: Output Github Context
         run: echo "${{ toJSON(github) }}"
