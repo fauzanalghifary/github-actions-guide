@@ -1,4 +1,4 @@
-name: Deploy website
+name: s5 - Deploy website
 on:
   push:
     branches:
