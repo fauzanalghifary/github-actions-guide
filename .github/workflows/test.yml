@@ -3,6 +3,9 @@ on: push
 jobs:
   test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Section 03 Github Action Basic
     steps:
       - name: Get code
         uses: actions/checkout@v3
