@@ -9,7 +9,7 @@ jobs:
       - name: Move folder
         run: ls
       - name: Move folder
-        run: cd "Section 03 Github Action Basic"
+        run: cd Section\ 03\ Github\ Action\ Basic
       - name: Move folder
         run: ls
       - name: Install nodeJS
